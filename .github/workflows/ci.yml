@@ -1,9 +1,9 @@
 # goal: build image of devboard frontend and push to docker hub
 name: CI
 on: 
- push: 
-branches:
- -master
+  push: 
+    branches:
+      -master
 jobs:
   build-and-push:
    runs-on: ubuntu-latest
